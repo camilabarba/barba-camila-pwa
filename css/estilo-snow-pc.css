@@ -1,0 +1,5 @@
+body {
+    background: url("../imgs/fondo-snow-pc.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}

@@ -1,0 +1,20 @@
+h1 {
+    color: #d6c2bc;
+}
+
+header p {
+    color: black;
+}
+
+#main section {
+    background-color: #d6c2bc;
+}
+
+button {
+    border-color: #d6c2bc !important;
+    background-color: #d6c2bc !important;
+}
+
+input[type='text'] {
+    border-color: #d6c2bc;
+}

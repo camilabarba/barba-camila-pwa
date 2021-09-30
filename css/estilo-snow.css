@@ -1,0 +1,20 @@
+h1 {
+    color: black;
+}
+
+header p, #form-city h2 {
+    color: black;
+}
+
+button {
+    border-color: #d6c2bc !important;
+    background-color: #d6c2bc !important;
+}
+
+input[type='text'] {
+    border-color: #d6c2bc;
+}
+
+#main section {
+    background-color: #d6c2bc;
+}

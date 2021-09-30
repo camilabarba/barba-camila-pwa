@@ -1,0 +1,6 @@
+
+body {
+    background: url("../imgs/fondo-pc.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
