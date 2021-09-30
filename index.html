@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Barba Camila, cátedra PWA</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilo-pc.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" type="text/css" href="css/estilo-tablet.css" media="screen and (min-width: 577px) and (max-width: 991px)">
+    <link rel="stylesheet" type="text/css" href="css/estilo-mobile.css" media="screen and (max-width:576px)">
+    <link rel="stylesheet" id="change">
+    <link rel="stylesheet" media="screen and (min-width: 992px)" id="change-pc">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 577px) and (max-width: 991px)" id="change-tablet">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:576px)" id="change-mobile">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="mt-5 text-center">
+        <h1>Weather App</h1>
+        <p>El clima al alcance de un click</p>
+    </header>
+
+    <section id="form-city">
+        <h2 class="mx-auto text-center mt-3 mb-2">Ingresá tu ciudad</h2>
+        <form id="contact-form">
+            <div class="container">
+                <div class="mx-auto col-lg-6">
+                    <label for="search" class="visually-hidden form-label">Buscador de ciudad</label>
+                    <input type="text" name="search" id="search" class="form-control">
+                </div>
+                <div class="text-center mt-3 col-lg-4 mx-auto">
+                    <button type="button" class="btn" id="submit">Buscar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <main id="main">
+        <section class="container mt-5 mx-auto d-flex align-items-center">
+        <div class="mx-auto">
+        <h2 id="city" class="text-center"></h2>
+        <ul class="row list-unstyled text-center">
+            <li id="clima"></li>
+            <li id="temp_max"></li>
+            <li id="temp_min"></li>
+            <li id="humidity"></li>
+            <li id="pressure"></li>
+            <li id="wind_speed"></li>
+        </ul>
+
+        </div>
+        </section>
+    </main>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
