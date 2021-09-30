@@ -9,7 +9,7 @@ header p {
     color: white;
 }
 
-#main section {
+#main section, #form-city h2 {
     background-color: white;
 }
 
